@@ -35,7 +35,7 @@ async def yardim(event):
         try:
             results = await event.client.inline_query(
                 kingbotusername,
-                "@KingUserbotSupport"
+                "@EagleSupport"
             )
         except BotInlineDisabledError:
             return await event.edit("`Bot tidak dapat digunakan dalam mode sebaris\nPastikan untuk mengaktifkan mode sebaris!`")
