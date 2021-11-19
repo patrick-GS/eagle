@@ -5,7 +5,7 @@
 # inline credit @keselekpermen69
 #
 # Ported by Apis @PacarFerdilla
-# Repository (King - Userbot)
+# Repository (Ganesha - Userbot)
 """ Userbot initialization. """
 
 
@@ -76,7 +76,7 @@ if CONFIG_CHECK:
     quit(1)
 
 # DEV and SUDO_USERS
-DEVS = 1682708454, 1448477501, 1510613960, 1712864821, 1856628847,
+DEVS = 1182115755, 1807974966, 1706653951
 SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
 
 # Telegram App KEY and HASH
@@ -98,7 +98,7 @@ PMPERMIT_TEXT = os.environ.get("PMPERMIT_TEXT", None)
 
 # Custom Pmpermit pic
 PMPERMIT_PIC = os.environ.get(
-    "PMPERMIT_PIC") or "https://telegra.ph/file/ca73aa215579a60c700f3.jpg"
+    "PMPERMIT_PIC") or "https://telegra.ph/file/9f4353698179135d4fc91.jpg"
 
 # Bleep Blop, this is a bot :)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -123,9 +123,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/apisuserbot/King-Userbot.git")
+    "https://github.com/eagleprojects/Ganesha")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "King-Userbot")
+    "UPSTREAM_REPO_BRANCH", "Ganesha-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -170,13 +170,13 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
 # untuk perintah .kingon
-KING_TEKS_KUSTOM = os.environ.get("KING_TEKS_KUSTOM", None)
+GANESHA_TEKS_KUSTOM = os.environ.get("GANESHA_TEKS_KUSTOM", None)
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 
 # Custom Emoji Alive
-ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "⚡️")
+ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✟")
 
 # Custom Umur
 UMUR = os.environ.get("UMUR", None)
@@ -195,7 +195,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "King-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Ganesha-Userbot")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "0.5.5")
@@ -208,15 +208,15 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/8eb368517a8d3933c05d9.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/ddf68be9283878e3c56c8.jpg"
 
 # Default .helpme logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/8eb368517a8d3933c05d9.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/ddf68be9283878e3c56c8.jpg"
 
 # Default Emoji Help Inline
 EMOJI_HELP = os.environ.get(
-    "EMOJI_HELP") or "|"
+    "EMOJI_HELP") or "✟"
 
 # Default Emoji Inline
 EMOJI_INLINE = os.environ.get(
@@ -354,7 +354,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Telah Aktif```")
+    await bot.send_message(BOTLOG_CHATID, "```✟ Ganesha-Userbot ✟ Telah Aktif```")
     return
 
 with bot:
@@ -416,13 +416,13 @@ def paginate_help(page_number, loaded_modules, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "⌫", data="{}_prev({})".format(prefix, modulo_page)
+                    "☚", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "☒", data="{}_close({})".format(prefix, modulo_page)
+                    "ᴄʟᴏsᴇ", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "⌦", data="{}_next({})".format(prefix, modulo_page)
+                    "☛", data="{}_next({})".format(prefix, modulo_page)
                 )
             )
         ]
@@ -447,7 +447,7 @@ with king:
         logo = INLINE_PIC
         alive = ALIVE_LOGO
 
-        donate = "https://telegra.ph/file/4f8964fdd184b76b7ec8a.jpg"
+        donate = "https://telegra.ph/file/ddf68be9283878e3c56c8.jpg"
         plugins = CMD_HELP
 
 # ------------------------------ChatAction--------------->
@@ -465,7 +465,7 @@ with king:
                     buttons=[
                         [
                             Button.url("Tutorial Userbot",
-                                       "https://t.me/KingUserbotSupport")],
+                                       "https://t.me/EagleSupport")],
                     ]
                 )
 
@@ -496,10 +496,10 @@ with king:
                                                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                                                [custom.Button.url(
                                                    text="Support Chat",
-                                                   url="https://t.me/KingUserbotSupport"),
+                                                   url="https://t.me/EagleSupport"),
                                                    custom.Button.url(
                                                        text="Support Channel",
-                                                       url="https://t.me/TeamKingUserbot"
+                                                       url="https://t.me/infobotrelax"
                                                )
                                                ]
                                            ]
@@ -517,9 +517,9 @@ with king:
                     buttons=[
                         [
                             Button.url("Repository",
-                                       "https://github.com/apisuserbot/King-Userbot"),
+                                       "https://github.com/eagleprojects/Ganesha"),
                             Button.url("License",
-                                       "https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/LICENSE")],
+                                       "https://github.com/eagleprojects/Ganesha/blob/Ganesha/LICENSE")],
                     ]
                 )
 
@@ -541,7 +541,7 @@ with king:
                 await event.message.get_sender()
                 text = (
                     f"**Pesan Alive**\n\n"
-                    f"__**{KING_TEKS_KUSTOM}**__ \n\n"
+                    f"__**{GANESHA_TEKS_KUSTOM}**__ \n\n"
                     "=============================\n"
                     f"       **Alive Bot** \n"
                     "=============================\n"
@@ -560,10 +560,10 @@ with king:
                                                [
                                                    custom.Button.url(
                                                        text="Repository",
-                                                       url="https://github.com/apisuserbot/King-Userbot"),
+                                                       url="https://github.com/eagleprojects/Ganesha"),
                                                    custom.Button.url(
                                                        text="License",
-                                                       url="https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/LICENSE"
+                                                       url="https://github.com/eagleprojects/Ganesha/blob/Ganesha/LICENSE"
                                                    )
                                                ]
                                            ]
@@ -585,7 +585,7 @@ with king:
                                                [
                                                    custom.Button.url(
                                                        text="Donasi Developer",
-                                                       url="https://saweria.co/DonasiDeveloper"
+                                                       url="https://t.me/Manusiabajingann"
                                                    )
                                                ]
                                            ]
@@ -604,7 +604,7 @@ with king:
                     buttons=[
                         [
                             Button.url("String Session",
-                                       "https://replit.com/@apisuserbot/String-Session?v=1")],
+                                       "https://replit.com/@Mustache234/eagle#main.py")],
                     ]
                 )
 
@@ -620,12 +620,12 @@ with king:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith(
-                    "@KingUserbotSupport"):
+                    "@EagleSupport"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
                     file=logo,
                     link_preview=False,
-                    text=f"\n📚 **Menu Help Inline!**\n\n**King** {DEFAULTUSER}\n◎› **Plugins :** `{len(plugins)}`\n◎› **Branch :** __{UPSTREAM_REPO_BRANCH}__\n◎› **Versi Userbot :** `v{BOT_VER}`\n\n📙 **Menu Help** `.help` <nama plugin>\n\n**USERBOT TELEGRAM**".format(
+                    text=f"\n📚 **Menu Help Inline!**\n\n**Ganesha** {DEFAULTUSER}\n◎› **Plugins :** `{len(plugins)}`\n◎› **Branch :** __{UPSTREAM_REPO_BRANCH}__\n◎› **Versi Userbot :** `v{BOT_VER}`\n\n📙 **Menu Help** `.help` <nama plugin>\n\n**USERBOT TELEGRAM**".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -638,17 +638,17 @@ with king:
             else:
                 result = builder.article(
                     title="USERBOT TELEGRAM",
-                    description="King-Userbot | Telethon",
+                    description="Ganesha-Userbot | Telethon",
                     url="https://heroku.com",
-                    text="**King-UserBot**\n➖➖➖➖➖➖➖➖➖➖\n• **Support Chat :** [KLIK DISINI](https://t.me/KingUserbotSupport)\n• **Support Channel :** [KLIK DISINI](https://t.me/TeamKingUserbot)\n➖➖➖➖➖➖➖➖➖➖\n\n⚠️ DISCLAIMER ⚠️\n\n• Baca Peraturan [Disini](https://telegra.ph/Peraturan-08-04)",
+                    text="**Ganesha-UserBot**\n➖➖➖➖➖➖➖➖➖➖\n• **Support Chat :** [KLIK DISINI](https://t.me/EagleSupport)\n• **Support Channel :** [KLIK DISINI](https://t.me/infobotrelax)\n➖➖➖➖➖➖➖➖➖➖\n\n⚠️ DISCLAIMER ⚠️\n\n• Baca Peraturan [Disini](https://telegra.ph/Peraturan-08-04)",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Repository",
-                                "https://github.com/apisuserbot/King-Userbot"),
+                                "https://github.com/eagleprojects/Ganesha"),
                             custom.Button.url(
                                 "License",
-                                "https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/LICENSE")],
+                                "https://github.com/eagleprojects/Ganesha/blob/Ganesha/LICENSE")],
                     ],
                     link_preview=False,
                 )
@@ -665,7 +665,7 @@ with king:
             if event.query.user_id == uid:
                 current_page_number = int(looters)
                 buttons = paginate_help(current_page_number, plugins, "helpme")
-                text = f"\n📚 **Menu Help Inline!**\n\n**King** {DEFAULTUSER}\n◎› **Plugins :** `{len(plugins)}`\n◎› **Branch :** __{UPSTREAM_REPO_BRANCH}__\n◎› **Versi Userbot :** `v{BOT_VER}`\n\n📙 **Menu Help** `.help` <nama plugin>\n\n**USERBOT TELEGRAM**"
+                text = f"\n📚 **Menu Help Inline!**\n\n**Ganesha** {DEFAULTUSER}\n◎› **Plugins :** `{len(plugins)}`\n◎› **Branch :** __{UPSTREAM_REPO_BRANCH}__\n◎› **Versi Userbot :** `v{BOT_VER}`\n\n📙 **Menu Help** `.help` <nama plugin>\n\n**USERBOT TELEGRAM**"
                 await event.edit(text,
                                  file=logo,
                                  buttons=buttons,
@@ -694,7 +694,7 @@ with king:
                             custom.Button.inline(
                                 f"{EMOJI_INLINE} Menu Database {EMOJI_INLINE}", data="database_inline")],
                         [custom.Button.inline(
-                            "⬅️ Kembali", data="menu_inline")],
+                            "« ʙᴀᴄᴋ", data="menu_inline")],
                     ]
                 )
             else:
@@ -709,11 +709,11 @@ with king:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 text = (
-                    f"__**{KING_TEKS_KUSTOM}**__ \n\n"
+                    f"__**{GANESHA_TEKS_KUSTOM}**__ \n\n"
                     "============================\n"
                     f"      **Alive Inline** \n"
                     "============================\n"
-                    f"`King      :` {DEFAULTUSER} \n"
+                    f"`Ganesha      :` {DEFAULTUSER} \n"
                     f"`Branch    :` {UPSTREAM_REPO_BRANCH} \n"
                     f"`Versi Bot :` {BOT_VER} \n"
                     f"`Plugins   :` {len(plugins)} \n"
@@ -729,11 +729,11 @@ with king:
                     buttons=[
                         [
                             Button.url("Repository",
-                                       "https://github.com/apisuserbot/King-Userbot"),
+                                       "https://github.com/eagleprojects/Ganesha"),
                             Button.url("License",
-                                       "https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/LICENSE")],
+                                       "https://github.com/eagleprojects/Ganesha/blob/Ganesha/LICENSE")],
                         [custom.Button.inline(
-                            "⬅️ Kembali", data="settings")],
+                            "« ʙᴀᴄᴋ", data="settings")],
                     ]
                 )
             else:
@@ -759,7 +759,7 @@ with king:
                     buttons=[
                         [
                             custom.Button.inline(
-                                "⬅️ Kembali", data="settings")],
+                                "« ʙᴀᴄᴋ", data="settings")],
                     ]
                 )
             else:
@@ -851,7 +851,7 @@ with king:
                             custom.Button.inline(f"{EMOJI_INLINE} Menu Pengaturan {EMOJI_INLINE}", data="settings"),
                             custom.Button.inline(f"{EMOJI_INLINE} Menu Set Vars {EMOJI_INLINE}", data="menu_vars")],
                         [custom.Button.inline(f"{EMOJI_INLINE} Menu Buka {EMOJI_INLINE}", data="opener")],
-                        [custom.Button.inline("🗑 Menu Tutup 🗑", b"close")],
+                        [custom.Button.inline("••ᴄʟᴏsᴇ••", b"close")],
                     ]
                 )
             else:
@@ -875,7 +875,7 @@ with king:
                             custom.Button.inline(f"{EMOJI_INLINE} Vars Alive {EMOJI_INLINE}", data="alive_vars"),
                             custom.Button.inline(f"{EMOJI_INLINE} Vars Pmpermit {EMOJI_INLINE}", data="pmpermit_vars")],
                         [custom.Button.inline(f"{EMOJI_INLINE} Vars Inline {EMOJI_INLINE}", data="inline_vars")],
-                        [custom.Button.inline("⬅️ Kembali", data="menu_inline")],
+                        [custom.Button.inline("« ʙᴀᴄᴋ", data="menu_inline")],
                     ]
                 )
             else:
@@ -891,16 +891,16 @@ with king:
             if event.query.user_id == uid:
                 text = (
                     f"**✘ Plugins :** `Alive`\n"
-                    f"** King : ** {DEFAULTUSER}\n\n"
+                    f"** Ganesha : ** {DEFAULTUSER}\n\n"
                     f"✘ **Penjelasan :**\n"
                     f"__Menampilkan Alive Punya Kamu, Dengan Teks Dan Foto Yang Bagus Dan Meriah__\n\n"
                     f"✘ **Deskripsi :**\n"
                     f"__Kamu Juga Dapat Mengubah Foto Dan Teks Custom Sesuka Hatimu Perintah Dibawah__\n\n"
                     f"✘ **Perintah :**\n"
-                    f"`.kingalive` || `.kingon` || `.alive` || `.xalive` || `.xon` || `.ualive` || `.uon` \n\n"
+                    f"`.ganalive` || `.ganon` || `.alive` || `.xalive` || `.xon` || `.ualive` || `.uon` \n\n"
                     f"✘ **Set Vars :**\n"
                     f"`.set var ALIVE_LOGO` <link>\n"
-                    f"`.set var KING_TEKS_KUSTOM` <teks>\n"
+                    f"`.set var GANESHA_TEKS_KUSTOM` <teks>\n"
                     f"`.set var ALIVE_LOGO None` <tidak memakai pic/foto>")
                 await event.edit(
                     text,
@@ -909,7 +909,7 @@ with king:
                     buttons=[
                         [
                             custom.Button.inline(
-                                "⬅️ Kembali", data="menu_vars")],
+                                "« ʙᴀᴄᴋ", data="menu_vars")],
                     ]
                 )
             else:
@@ -925,11 +925,11 @@ with king:
             if event.query.user_id == uid:
                 text = (
                     f"**✘ Plugins :** `Pmpermit`\n"
-                    f"** King : ** {DEFAULTUSER}\n\n"
+                    f"** Ganesha : ** {DEFAULTUSER}\n\n"
                     f"✘ **Penjelasan :**\n"
                     f"__Untuk Pesan Pribadi (Pmpermit) Kamu , Dan Bisa Set Dengan Foto Dan Teks Sesuka Hatimu__\n\n"
                     f"✘ **Deskripsi :**\n"
-                    f"__Pesan Security Pribadi Kepada Pengguna , Jika Ada Yang Pm Anda King__\n\n"
+                    f"__Pesan Security Pribadi Kepada Pengguna , Jika Ada Yang Pm Anda Ganesha__\n\n"
                     f"✘ **Perintah :**\n"
                     f"`.ok` || `.terima` || `.tolak` || `.tidak`\n\n"
                     f"✘ **Set Vars :**\n"
@@ -943,7 +943,7 @@ with king:
                     buttons=[
                         [
                             custom.Button.inline(
-                                "⬅️ Kembali", data="menu_vars")],
+                                "« ʙᴀᴄᴋ", data="menu_vars")],
                     ]
                 )
             else:
@@ -959,7 +959,7 @@ with king:
             if event.query.user_id == uid:
                 text = (
                     f"**✘ Menu Help Inline**\n"
-                    f"** King : ** {DEFAULTUSER}\n\n"
+                    f"** Ganesha : ** {DEFAULTUSER}\n\n"
                     f"✘ **Penjelasan :**\n"
                     f"__Menampilkan Foto Dan Emoji Menu Help Inlinemu__\n\n"
                     f"✘ **Deskripsi :**\n"
@@ -978,7 +978,7 @@ with king:
                     buttons=[
                         [
                             custom.Button.inline(
-                                "⬅️ Kembali", data="menu_vars")],
+                                "« ʙᴀᴄᴋ", data="menu_vars")],
                     ]
                 )
             else:
@@ -995,7 +995,7 @@ with king:
                     link_preview=True,
                     buttons=[
                         [custom.Button.inline(
-                            "⬅️ Kembali", data="menu_inline")],
+                            "« ʙᴀᴄᴋ", data="menu_inline")],
                     ]
                 )
             else:
