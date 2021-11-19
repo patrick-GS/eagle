@@ -3,16 +3,16 @@ FROM apiskinguserbot/kinguserbot:Buster
 # ==========================================
 #              USERBOT TELEGRAM
 # ==========================================
-RUN git clone -b Ganesha-Userbot https://github.com/eagleprojects/Ganesha /home/Ganesha \
-    && chmod 777 /home/Ganesha \
-    && mkdir /home/Ganesha/bin/
+RUN git clone -b King-Userbot https://github.com/eagleprojects/Ganesha /home/King-Userbot \
+    && chmod 777 /home/King-Userbot \
+    && mkdir /home/King-Userbot/bin/
 
 # Copies config.env (if exists)
-COPY ./sample_config.env ./config.env* /home/Ganesha/
+COPY ./sample_config.env ./config.env* /home/King-Userbot/
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/eagleprojects/Ganesha/Ganesha/requirements.txt
-WORKDIR /home/Ganesha/
+RUN pip3 install -r https://raw.githubusercontent.com/apisuserbot/King-Userbot/King-Userbot/requirements.txt
+WORKDIR /home/King-Userbot/
 
 # Finishim
 CMD ["bash","./resource/startup/startup.sh"]
