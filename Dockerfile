@@ -1,5 +1,5 @@
 # Docker Tag Images, Using Python Slim Buster 3.9
-FROM eagleprojects/Ganesha:Buster
+FROM apiskinguserbot/kinguserbot:Buster
 # ==========================================
 #              USERBOT TELEGRAM
 # ==========================================
