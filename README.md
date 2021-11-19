@@ -1,59 +1,21 @@
-## King-Userbot
+## Ganesha-Userbot
 
-King-Userbot adalah sebuah repository yang di rancang untuk membantu akun pengguna telegram dalam menjalankan aktifitas di dalamnya.
 
-Dengan memiliki berbagai fitur yang menarik dan menyenangkan.
+<a href="https://t.me/EagleSupport/16"><img src="https://img.shields.io/badge/Tutorial%20Deploy%3F-Ganesha-green?&style=flat-square?&logo=telegram" width=165px></a></p>
 
-Bahasa code ini adalah [Python](https://www.python.org/)
+![Ganesha Userbot Logo](https://telegra.ph/file/84f09e57f97f6e1bb3cba.jpg)
 
-Terimakasih telah menggunakan repository ini!
-
-<a href="https://t.me/TeamKingUserbot/16"><img src="https://img.shields.io/badge/Tutorial%20Deploy%3F-King-green?&style=flat-square?&logo=telegram" width=165px></a></p>
-
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/5533549.gif" width="802" height="96" alt="King Userbot" /></a>
-
-<p align="center">
-  <a href="https://github.com/apisuserbot/King-Userbot/fork">
-    <img src="https://img.shields.io/github/forks/apisuserbot/King-Userbot?label=Fork&style=social">
-    
-  </a>
-  <a href="https://github.com/apisuserbot/King-Userbot">
-    <img src="https://img.shields.io/github/stars/apisuserbot/King-Userbot?style=social">
-  </a>
-</p>
-
-![Repo Size](https://img.shields.io/github/repo-size/apisuserbot/King-Userbot?&style=plastic&logo=github)
-[![GitHub issues](https://img.shields.io/github/issues/apisuserbot/King-Userbot?&style=plastic&logo=github)](https://github.com/apisuserbot/King-Userbot/issues)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/apisuserbot/King-Userbot?&style=plastic&logo=github)](https://github.com/apisuserbot/King-Userbot/graphs/commit-activity)
-[![GitHub contributors](https://img.shields.io/github/contributors/apisuserbot/King-Userbot?&style=plastic&logo=github)](https://GitHub.com/apisuserbot/King-Userbot/graphs/contributors/)
-<p align="center">
-
-<p align="center">
-<a href="https://www.codefactor.io/repository/github/apisuserbot/king-userbot"><img src="https://www.codefactor.io/repository/github/apisuserbot/king-userbot/badge?style=for-the-badge" alt="CodeFactor" /></a>
-</p>
-
-![King Userbot Logo](https://telegra.ph/file/8eb368517a8d3933c05d9.jpg)
-
-<a href="https://hub.docker.com/r/apiskinguserbot/kinguserbot"> <img src="https://img.shields.io/docker/image-size/apiskinguserbot/kinguserbot/Buster?label=docker%20image%20size&logo=docker&style=for-the-badge" /></a>
-<a href="https://hub.docker.com/r/apiskinguserbot/kinguserbot/tags"> <img src="https://img.shields.io/docker/v/apiskinguserbot/kinguserbot/Buster?label=docker%20version&logo=docker&style=for-the-badge" /></a>
-</p>
 
 <h4 align="center"> DISCLAIMER </p>
 
 ```
              ⚠️ PERINGATAN UNTUK ANDA ⚠️ ️
-   King-Userbot digunakan untuk membantu aktifitas akun anda di telegram
+   Ganesha-Userbot digunakan untuk membantu aktifitas akun anda di telegram
    Kami tidak bertanggung jawab atas apa yang anda salah gunakan pada repository ini
       ! Hati hati dalam penggunaan pada repository ini !
    Jika salah satu member salah gunakan repository ini , kami terpaksa harus meng gban anda 
   Jangan pernah sekali sekali menyalah gunakan repository ini
 ```
-
-### Repository King Userbot 👑
-Repository Yang Dikelola oleh [Apis](https://t.me/PacarFerdilla) Dari Berbagai Repository Userbot yang ada di Github 
-
-`
-Userbot digunakan untuk bersenang senang di telegram, ada beberapa fitur yg mungkin dapat membantu kamu tanpa harus mengakses apk lain`
 
 ### Cara Deploy 📝
 
@@ -72,18 +34,18 @@ Userbot digunakan untuk bersenang senang di telegram, ada beberapa fitur yg mung
 ### Group Support 🇮🇩
 `
 Klik tombol di bawah untuk join ke group support kami`
-   <a href="https://t.me/KingUserbotSupport"><img src="https://img.shields.io/badge/Grup%20Support%3F-King-green?&style=flat-square?&logo=telegram" width=165px></a></p>
+   <a href="https://t.me/EagleSupport"><img src="https://img.shields.io/badge/Grup%20Support%3F-King-green?&style=flat-square?&logo=telegram" width=165px></a></p>
 
 ### String Session 🖇
 `
 Klik tombol di samping untuk membuat string milikmu`
-   [![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://replit.com/@apisuserbot/String-Session?v=1)
+   [![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://replit.com/@Mustache234/eagle#main.py)
 
-### <p align="left">📍 Deploy King-Userbot 📍</p>
+### <p align="left">📍 Deploy Ganesha-Userbot 📍</p>
 `
-Klik tombol dibawah untuk deploy King Userbot milikmu`
+Klik tombol dibawah untuk deploy Ganesha Userbot milikmu`
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/apisuserbot/King-Userbot/tree/King-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/eagleprojects/Ganesha"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
