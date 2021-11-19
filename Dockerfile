@@ -1,18 +1,18 @@
 # Docker Tag Images, Using Python Slim Buster 3.9
-FROM apiskinguserbot/kinguserbot:Buster
+FROM eagleprojects/Ganesha:Buster
 # ==========================================
 #              USERBOT TELEGRAM
 # ==========================================
-RUN git clone -b Ganesha-Userbot https://github.com/eagleprojects/Ganesha /home/King-Userbot \
-    && chmod 777 /home/King-Userbot \
-    && mkdir /home/King-Userbot/bin/
+RUN git clone -b Ganesha-Userbot https://github.com/eagleprojects/Ganesha /home/Ganesha \
+    && chmod 777 /home/Ganesha \
+    && mkdir /home/Ganesha/bin/
 
 # Copies config.env (if exists)
-COPY ./sample_config.env ./config.env* /home/King-Userbot/
+COPY ./sample_config.env ./config.env* /home/Ganesha/
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/apisuserbot/King-Userbot/King-Userbot/requirements.txt
-WORKDIR /home/King-Userbot/
+RUN pip3 install -r https://raw.githubusercontent.com/eagleprojects/Ganesha/Ganesha/requirements.txt
+WORKDIR /home/Ganesha/
 
 # Finishim
 CMD ["bash","./resource/startup/startup.sh"]
