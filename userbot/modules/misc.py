@@ -67,23 +67,23 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Mematikan Ganesha-Userbot....`")
+    await event.edit("`Mematikan Eagle-Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
-                                        "`Ganesha-Userbot Telah Dimatikan`")
+                                        "`Eagle-Userbot Telah Dimatikan`")
     await bot.disconnect()
 
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Memulai ulang Ganesha-Userbot...`")
+    await event.edit("`Memulai ulang Eagle-Userbot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTARTBOT \n"
-                                        "`Ganesha-Userbot Telah Di Mulai Ulang`")
+                                        "`Eagle-Userbot Telah Di Mulai Ulang`")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
@@ -95,7 +95,7 @@ async def killdabot(event):
 async def readme(e):
     await e.edit(
         "   **Readme Userbot** \n\n"
-        "\n• **Repo** [Ganesha-Userbot](https://github.com/eagleprojects/Ganesha/blob/Ganesha/README.md)"
+        "\n• **Repo** [Eagle-Userbot](https://github.com/eagleprojects/eagle/blob/eagle/README.md)"
         "\n• **Repo** [WeebProject-Apis](https://github.com/apisuserbot/WeebProject-Apis/blob/WeebProject-Apis/README.md)")
 
 
@@ -118,9 +118,9 @@ async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
         f"   **Repository Userbot** \n\n"
-        "• **Repo Userbot :** [Ganesha-Userbot](https://github.com/eagleprojects/Ganesha) \n"
+        "• **Repo Userbot :** [Ganesha-Userbot](https://github.com/eagleprojects/eagle) \n"
         f"• **Versi Userbot :** `{BOT_VER}` \n"
-        "• **License :** [Raphielscape Version 1.d](https://github.com/eagleprojects/Ganesha/blob/Ganesha/LICENSE) \n"
+        "• **License :** [Raphielscape Version 1.d](https://github.com/eagleprojects/eagle/blob/eagle/LICENSE) \n"
         "• **Developer Project :** [Ache](https://t.me/Manusiabajingann) \n\n"
         "**Support :** [USERBOT TELEGRAM](https://t.me/EagleSupport) ")
 
@@ -178,7 +178,7 @@ async def okgoogle(img):
         photo = io.BytesIO()
         await bot.download_media(message, photo)
     else:
-        await img.edit("`Harap Balas Di Gambar King`")
+        await img.edit("`Harap Balas Di Gambar`")
         return
 
     if photo:
@@ -290,7 +290,7 @@ async def send(event):
     await event.edit("`Sedang Memproses...`")
 
     if not event.is_reply:
-        return await event.edit("`Mohon Balas ke pesan King!`")
+        return await event.edit("`Mohon Balas ke pesan!`")
 
     chat = event.pattern_match.group(1)
     try:
@@ -326,7 +326,7 @@ CMD_HELP.update(
     {
         "sleep": "**✘ Plugin :** `sleep`\
         \n\n  •  **Perintah :** `.sleep`\
-        \n  •  **Function : **Biarkan ✟ Ganesha-Userbot ✟ tidur selama beberapa detik \
+        \n  •  **Function : **Biarkan ✟ Eagle-Userbot ✟ tidur selama beberapa detik \
     "
     }
 )
@@ -334,13 +334,13 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "repo": "**✘ Plugin :** `Repository` ✟ Ganesha-Userbot ✟\
+        "repo": "**✘ Plugin :** `Repository` ✟ Eagle-Userbot ✟\
         \n\n  •  **Perintah :** `.repo`\
-        \n  •  **Function : **Menampilan link Repository ✟ Ganesha-Userbot ✟\
+        \n  •  **Function : **Menampilan link Repository ✟ Eagle-Userbot ✟\
         \n\n  •  **Perintah :** `.string`\
-        \n  •  **Function : **Menampilan link String ✟ Ganesha-Userbot ✟\
+        \n  •  **Function : **Menampilan link String ✟ Eagle-Userbot ✟\
         \n\n  • **Perintah :** `.tutorial`\
-        \n  •  **Function : **Menampilkan link Tutorial ✟ Ganesha-Userbot ✟\
+        \n  •  **Function : **Menampilkan link Tutorial ✟ Eagle-Userbot ✟\
     "
     }
 )
@@ -358,7 +358,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "restart": "**✘ Plugin :** `Memulai Ulang` ✟ Ganesha-Userbot ✟\
+        "restart": "**✘ Plugin :** `Memulai Ulang` ✟ Eagle-Userbot ✟\
         \n\n  •  **Perintah :** `.restart`\
         \n  •  **Function : **Untuk Memulai Ulang userbot.\
     "
