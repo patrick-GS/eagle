@@ -114,7 +114,7 @@ async def on_afk(event):
                 f"**Karena :** `{reason}`")
         else:
             message_to_reply = (
-                f"**Maaf King {ALIVE_NAME} Sedang AFK**\n\n**Sejak :** `{total_afk_time}` **Yang Lalu**"
+                f"**Maaf master {ALIVE_NAME} Sedang AFK**\n\n**Sejak :** `{total_afk_time}` **Yang Lalu**"
             )
         try:
             if pic.endswith((".tgs", ".webp")):
@@ -180,18 +180,18 @@ async def _(event):
                     await bot.send_message(event.chat_id, file=pic)
                     await bot.send_message(
                         event.chat_id,
-                        f"**King {ALIVE_NAME} Telah AFK**\n**Karena :** `{reason}`",
+                        f"**Master {ALIVE_NAME} Telah AFK**\n**Karena :** `{reason}`",
                     )
                 else:
                     await bot.send_message(
                         event.chat_id,
-                        f"**King {ALIVE_NAME} Telah AFK**\n**Karena :** `{reason}`",
+                        f"**Master {ALIVE_NAME} Telah AFK**\n**Karena :** `{reason}`",
                         file=pic,
                     )
             except BaseException:
                 await bot.send_message(
                     event.chat_id,
-                    f"**King {ALIVE_NAME} Telah AFK**\n**Karena :** `{reason}`",
+                    f"**Master {ALIVE_NAME} Telah AFK**\n**Karena :** `{reason}`",
                 )
         else:
             try:
@@ -203,11 +203,11 @@ async def _(event):
                 else:
                     await bot.send_message(
                         event.chat_id,
-                        f"**King {ALIVE_NAME} Telah AFK...**",
+                        f"**Master {ALIVE_NAME} Telah AFK...**",
                         file=pic,
                     )
             except BaseException:
-                await bot.send_message(event.chat_id, f"**King {ALIVE_NAME} Telah AFK...**")
+                await bot.send_message(event.chat_id, f"**Master {ALIVE_NAME} Telah AFK...**")
         await event.delete()
         try:
             if reason and pic:
