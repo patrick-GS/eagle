@@ -53,7 +53,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU] : Harap Siapkan Vars` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari ✟ Ganesha-Userbot ✟`'
+                ' untuk dapat deploy perubahan terbaru dari ✟ Eagle-Userbot ✟`'
             )
             repo.__del__()
             return
@@ -63,7 +63,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy ✟ Ganesha-Userbot ✟`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy ✟ Eagle-Userbot ✟`'
             )
             return repo.__del__()
         await event.edit('`[UPDATE DEPLOY] :'
@@ -100,7 +100,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#UPDATE \n"
-                "`King-Userbot Sukses Di Update`")
+                "`Eagle-Userbot Sukses Di Update`")
 
     else:
         await event.edit('`[HEROKU] :'
@@ -190,7 +190,7 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n✟ Ganesha-Userbot ✟ **Sudah Versi Terbaru**\n')
+            f'\n✟ Eagle-Userbot ✟ **Sudah Versi Terbaru**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
