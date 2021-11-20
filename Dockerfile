@@ -3,7 +3,7 @@ FROM apiskinguserbot/kinguserbot:Buster
 # ==========================================
 #              USERBOT TELEGRAM
 # ==========================================
-RUN git clone -b Ganesha https://github.com/eagleprojects/Ganesha /home/King-Userbot \
+RUN git clone -b eagle https://github.com/eagleprojects/eagle /home/King-Userbot \
     && chmod 777 /home/King-Userbot \
     && mkdir /home/King-Userbot/bin/
 
