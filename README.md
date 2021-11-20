@@ -1,9 +1,9 @@
-## Ganesha-Userbot
+## Eagle-Userbot
 
 
 <a href="https://t.me/EagleSupport/16"><img src="https://img.shields.io/badge/Tutorial%20Deploy%3F-Ganesha-green?&style=flat-square?&logo=telegram" width=165px></a></p>
 
-![Ganesha Userbot Logo](https://telegra.ph/file/84f09e57f97f6e1bb3cba.jpg)
+![Eagle Userbot Logo](https://telegra.ph/file/84f09e57f97f6e1bb3cba.jpg)
 
 
 <h4 align="center"> DISCLAIMER </p>
@@ -34,7 +34,7 @@
 ### Group Support 🇮🇩
 `
 Klik tombol di bawah untuk join ke group support kami`
-   <a href="https://t.me/EagleSupport"><img src="https://img.shields.io/badge/Grup%20Support%3F-King-green?&style=flat-square?&logo=telegram" width=165px></a></p>
+   <a href="https://t.me/EagleSupport"><img src="https://img.shields.io/badge/Grup%20Support%3F-eagle-green?&style=flat-square?&logo=telegram" width=165px></a></p>
 
 ### String Session 🖇
 `
@@ -45,7 +45,7 @@ Klik tombol di samping untuk membuat string milikmu`
 `
 Klik tombol dibawah untuk deploy Ganesha Userbot milikmu`
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/eagleprojects/Ganesha"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/eagleprojects/eagle"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
