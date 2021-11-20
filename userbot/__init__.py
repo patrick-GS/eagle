@@ -5,7 +5,7 @@
 # inline credit @keselekpermen69
 #
 # Ported by Apis @PacarFerdilla
-# Repository (Ganesha - Userbot)
+# Repository (Eagle - Userbot)
 """ Userbot initialization. """
 
 
@@ -123,9 +123,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/eagleprojects/Ganesha")
+    "https://github.com/eagleprojects/eagle")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Ganesha-Userbot")
+    "UPSTREAM_REPO_BRANCH", "Eagle-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -170,7 +170,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
 # untuk perintah .kingon
-GANESHA_TEKS_KUSTOM = os.environ.get("GANESHA_TEKS_KUSTOM", None)
+EAGLE_TEKS_KUSTOM = os.environ.get("EAGLE_TEKS_KUSTOM", None)
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -195,7 +195,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Ganesha-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Eagle-Userbot")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "0.5.5")
@@ -354,7 +354,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```✟ Ganesha-Userbot ✟ Telah Aktif```")
+    await bot.send_message(BOTLOG_CHATID, "```✟ Eagle-Userbot ✟ Telah Aktif```")
     return
 
 with bot:
@@ -517,9 +517,9 @@ with king:
                     buttons=[
                         [
                             Button.url("Repository",
-                                       "https://github.com/eagleprojects/Ganesha"),
+                                       "https://github.com/eagleprojects/eagle"),
                             Button.url("License",
-                                       "https://github.com/eagleprojects/Ganesha/blob/Ganesha/LICENSE")],
+                                       "https://github.com/eagleprojects/eagle/blob/eagle/LICENSE")],
                     ]
                 )
 
@@ -541,7 +541,7 @@ with king:
                 await event.message.get_sender()
                 text = (
                     f"**Pesan Alive**\n\n"
-                    f"__**{GANESHA_TEKS_KUSTOM}**__ \n\n"
+                    f"__**{EAGLE_TEKS_KUSTOM}**__ \n\n"
                     "=============================\n"
                     f"       **Alive Bot** \n"
                     "=============================\n"
@@ -560,10 +560,10 @@ with king:
                                                [
                                                    custom.Button.url(
                                                        text="Repository",
-                                                       url="https://github.com/eagleprojects/Ganesha"),
+                                                       url="https://github.com/eagleprojects/eagle"),
                                                    custom.Button.url(
                                                        text="License",
-                                                       url="https://github.com/eagleprojects/Ganesha/blob/Ganesha/LICENSE"
+                                                       url="https://github.com/eagleprojects/eagle/blob/eagle/LICENSE"
                                                    )
                                                ]
                                            ]
@@ -625,7 +625,7 @@ with king:
                 result = builder.photo(
                     file=logo,
                     link_preview=False,
-                    text=f"\n📚 **Menu Help Inline!**\n\n**Ganesha** {DEFAULTUSER}\n◎› **Plugins :** `{len(plugins)}`\n◎› **Branch :** __{UPSTREAM_REPO_BRANCH}__\n◎› **Versi Userbot :** `v{BOT_VER}`\n\n📙 **Menu Help** `.help` <nama plugin>\n\n**USERBOT TELEGRAM**".format(
+                    text=f"\n📚 **Menu Help Inline!**\n\n**Eagle** {DEFAULTUSER}\n◎› **Plugins :** `{len(plugins)}`\n◎› **Branch :** __{UPSTREAM_REPO_BRANCH}__\n◎› **Versi Userbot :** `v{BOT_VER}`\n\n📙 **Menu Help** `.help` <nama plugin>\n\n**USERBOT TELEGRAM**".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -638,17 +638,17 @@ with king:
             else:
                 result = builder.article(
                     title="USERBOT TELEGRAM",
-                    description="Ganesha-Userbot | Telethon",
+                    description="Eagle-Userbot | Telethon",
                     url="https://heroku.com",
-                    text="**Ganesha-UserBot**\n➖➖➖➖➖➖➖➖➖➖\n• **Support Chat :** [KLIK DISINI](https://t.me/EagleSupport)\n• **Support Channel :** [KLIK DISINI](https://t.me/infobotrelax)\n➖➖➖➖➖➖➖➖➖➖\n\n⚠️ DISCLAIMER ⚠️\n\n• Baca Peraturan [Disini](https://telegra.ph/Peraturan-08-04)",
+                    text="**Eagle-UserBot**\n➖➖➖➖➖➖➖➖➖➖\n• **Support Chat :** [KLIK DISINI](https://t.me/EagleSupport)\n• **Support Channel :** [KLIK DISINI](https://t.me/infobotrelax)\n➖➖➖➖➖➖➖➖➖➖\n\n⚠️ DISCLAIMER ⚠️\n\n• Baca Peraturan [Disini](https://telegra.ph/Peraturan-08-04)",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Repository",
-                                "https://github.com/eagleprojects/Ganesha"),
+                                "https://github.com/eagleprojects/eagle"),
                             custom.Button.url(
                                 "License",
-                                "https://github.com/eagleprojects/Ganesha/blob/Ganesha/LICENSE")],
+                                "https://github.com/eagleprojects/eagle/blob/eagle/LICENSE")],
                     ],
                     link_preview=False,
                 )
@@ -665,7 +665,7 @@ with king:
             if event.query.user_id == uid:
                 current_page_number = int(looters)
                 buttons = paginate_help(current_page_number, plugins, "helpme")
-                text = f"\n📚 **Menu Help Inline!**\n\n**Ganesha** {DEFAULTUSER}\n◎› **Plugins :** `{len(plugins)}`\n◎› **Branch :** __{UPSTREAM_REPO_BRANCH}__\n◎› **Versi Userbot :** `v{BOT_VER}`\n\n📙 **Menu Help** `.help` <nama plugin>\n\n**USERBOT TELEGRAM**"
+                text = f"\n📚 **Menu Help Inline!**\n\n**Eagle** {DEFAULTUSER}\n◎› **Plugins :** `{len(plugins)}`\n◎› **Branch :** __{UPSTREAM_REPO_BRANCH}__\n◎› **Versi Userbot :** `v{BOT_VER}`\n\n📙 **Menu Help** `.help` <nama plugin>\n\n**USERBOT TELEGRAM**"
                 await event.edit(text,
                                  file=logo,
                                  buttons=buttons,
@@ -729,9 +729,9 @@ with king:
                     buttons=[
                         [
                             Button.url("Repository",
-                                       "https://github.com/eagleprojects/Ganesha"),
+                                       "https://github.com/eagleprojects/eagle"),
                             Button.url("License",
-                                       "https://github.com/eagleprojects/Ganesha/blob/Ganesha/LICENSE")],
+                                       "https://github.com/eagleprojects/eagle/blob/eagle/LICENSE")],
                         [custom.Button.inline(
                             "« ʙᴀᴄᴋ", data="settings")],
                     ]
@@ -891,16 +891,16 @@ with king:
             if event.query.user_id == uid:
                 text = (
                     f"**✘ Plugins :** `Alive`\n"
-                    f"** Ganesha : ** {DEFAULTUSER}\n\n"
+                    f"** Eagle : ** {DEFAULTUSER}\n\n"
                     f"✘ **Penjelasan :**\n"
                     f"__Menampilkan Alive Punya Kamu, Dengan Teks Dan Foto Yang Bagus Dan Meriah__\n\n"
                     f"✘ **Deskripsi :**\n"
                     f"__Kamu Juga Dapat Mengubah Foto Dan Teks Custom Sesuka Hatimu Perintah Dibawah__\n\n"
                     f"✘ **Perintah :**\n"
-                    f"`.ganalive` || `.ganon` || `.alive` || `.xalive` || `.xon` || `.ualive` || `.uon` \n\n"
+                    f"`.ealive` || `.eagleon` || `.alive` || `.xalive` || `.xon` || `.ualive` || `.uon` \n\n"
                     f"✘ **Set Vars :**\n"
                     f"`.set var ALIVE_LOGO` <link>\n"
-                    f"`.set var GANESHA_TEKS_KUSTOM` <teks>\n"
+                    f"`.set var EAGLE_TEKS_KUSTOM` <teks>\n"
                     f"`.set var ALIVE_LOGO None` <tidak memakai pic/foto>")
                 await event.edit(
                     text,
@@ -925,7 +925,7 @@ with king:
             if event.query.user_id == uid:
                 text = (
                     f"**✘ Plugins :** `Pmpermit`\n"
-                    f"** Ganesha : ** {DEFAULTUSER}\n\n"
+                    f"** Eagle : ** {DEFAULTUSER}\n\n"
                     f"✘ **Penjelasan :**\n"
                     f"__Untuk Pesan Pribadi (Pmpermit) Kamu , Dan Bisa Set Dengan Foto Dan Teks Sesuka Hatimu__\n\n"
                     f"✘ **Deskripsi :**\n"
@@ -959,7 +959,7 @@ with king:
             if event.query.user_id == uid:
                 text = (
                     f"**✘ Menu Help Inline**\n"
-                    f"** Ganesha : ** {DEFAULTUSER}\n\n"
+                    f"** Eagle : ** {DEFAULTUSER}\n\n"
                     f"✘ **Penjelasan :**\n"
                     f"__Menampilkan Foto Dan Emoji Menu Help Inlinemu__\n\n"
                     f"✘ **Deskripsi :**\n"
