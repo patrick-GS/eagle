@@ -21,7 +21,7 @@ from os import remove
 from telethon import __version__, version
 
 from datetime import datetime
-from userbot import ALIVE_EMOJI, ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, GANESHA_TEKS_KUSTOM, StartTime, UPSTREAM_REPO_BRANCH, bot
+from userbot import ALIVE_EMOJI, ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, EAGLE_TEKS_KUSTOM, StartTime, UPSTREAM_REPO_BRANCH, bot
 from userbot.events import register
 
 
@@ -169,7 +169,7 @@ async def bot_ver(event):
         await event.edit("`Memeriksa Versi Userbot...`")
         sleep(3)
         await event.edit(
-            " ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ \n\n"
+            " ✟ Eagle-Userbot ✟ \n\n"
             f"**★ Versi Userbot :** v{BOT_VER} \n"
             f"**★ heads :** heads/King-Userbot-0-x634i7u1 \n"
             f"**★ Revisi :** {revout}"
@@ -226,15 +226,15 @@ async def pipcheck(pip):
         await pip.edit("**Harap Gunakan** `.help pip` **Untuk Melihat Contoh**")
 
 
-@register(outgoing=True, pattern=r"^\.(?:kingalive|kingon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:ealive|eagleon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"┗┓★ ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ★┏┛\n"
-        f"\n__**{KING_TEKS_KUSTOM}**__\n"
+        f"┗┓★ ✟ Eagle-Userbot ✟ ★┏┛\n"
+        f"\n__**{EAGLE_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━━**\n"
-        f"★ ** King ** \n"
+        f"★ ** Eagle ** \n"
         f"☇ : `{DEFAULTUSER}` \n"
         f"★ ** Username ** \n"
         f"☇ : `@{user.username}` \n"
@@ -245,8 +245,8 @@ async def amireallyalive(alive):
         f"|✶ 📂 `Plugins        :` {len(plugins)} Plugin\n"
         f"╰╼━━━━━━━━━━━━━━━━━━━━━\n"
         f"• **Copyright :** [King Userbot Company LLC](https://github.com/apisuserbot/King-Userbot) \n"
-        f"• **License :** [Raphielscape Version 1.d](https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/LICENSE) \n"
-        f"• **Support :** [USERBOT TELEGRAM](https://t.me/KingUserbotSupport) ")
+        f"• **License :** [Raphielscape Version 1.d](https://github.com/eagleprojects/eagle/blob/eagle/LICENSE) \n"
+        f"• **Support :** [USERBOT TELEGRAM](https://t.me/EagleSupport) ")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -272,9 +272,9 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"  𝗫 ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ 𝗫 \n"
+        f"  𝗫 ✟ Eagle-Userbot ✟ 𝗫 \n"
         f"╭━━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"╟ 🤴 KING     : {DEFAULTUSER}\n"
+        f"╟ 🤴 EAGLE     : {DEFAULTUSER}\n"
         f"╟ 🔎 Username : @{user.username}\n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
         f"╟◈ ⚙️ `Telethon :` v.{version.__version__} \n"
@@ -284,8 +284,8 @@ async def amireallyalive(alive):
         f"╟◈ 📂 `Plugins  :` {len(plugins)} Plugin \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
         f"• **Copyright :** [King Userbot Company LLC](https://github.com/apisuserbot/King-Userbot) \n"
-        f"• **License :** [Raphielscape Version 1.d](https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/LICENSE) \n"
-        f"• **Support :** [USERBOT TELEGRAM](https://t.me/KingUserbotSupport) \n"
+        f"• **License :** [Raphielscape Version 1.d](https://github.com/eagleprojects/eagle/blob/eagle/LICENSE) \n"
+        f"• **Support :** [USERBOT TELEGRAM](https://t.me/EagleSupport) \n"
         f"━━━━━━━━━━━━━━━━━━━━━╯")
     if ALIVE_LOGO:
         try:
@@ -320,18 +320,18 @@ async def redis(alive):
     await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑..__")
     await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑.__")
     await alive.edit("__𝐗...𝐒𝐈𝐒𝐓𝐄𝐌...𝐗__")
-    await alive.edit("⚡")
+    await alive.edit("✟")
     await asyncio.sleep(3)
     await alive.edit("😈")
     await asyncio.sleep(3)
     output = (
         f"**╭╼══════════════════╾╮**\n"
-        f" ㅤ    ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡    \n"
+        f" ㅤ    https://github.com/eagleprojects/eagle/blob/eagle/LICENSE    \n"
         f"**╰╼══════════════════╾╯**\n"
         f"╭╼════════════════════╾╮ \n"
         f"│  ⇱ **SISTEM ALIVE USERBOT** ⇲ \n"
         f"┟╼════════════════════╾┤ \n"
-        f"╟◈ 🤴 `King     :` {DEFAULTUSER} \n"
+        f"╟◈ 🤴 `Eagle     :` {DEFAULTUSER} \n"
         f"╟◈ 🔎 `Username :` @{user.username} \n"
         f"╟◈ ⚙️ `Telethon :` v.{version.__version__} \n"
         f"╟◈ 🐍 `Python   :` v.{python_version()} \n"
@@ -339,12 +339,12 @@ async def redis(alive):
         f"╟◈ 👾 `Bot Ver  :` v{BOT_VER} \n"
         f"╟◈ 📂 `Plugins  :` {len(plugins)} Plugin \n"
         f"┞╼════════════════════╾┤ \n"
-        f"├◈ **{KING_TEKS_KUSTOM}** \n"
+        f"├◈ **{EAGLE_TEKS_KUSTOM}** \n"
         f"│                         \n"
         f"│   **USERBOT TELEGRAM**  \n"
         f"╰╼════════════════════╾╯ \n"
-        f"[License](https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/LICENSE) | [Support Chat](t.me/KingUserbotSupport) | "
-        f"[Support Channel](t.me/TeamKingUserbot)")
+        f"[License](https://github.com/eagleprojects/eagle/blob/eagle/LICENSE) | [Support Chat](t.me/EagleSupport) | "
+        f"[Support Channel](t.me/infobotrelax)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -374,14 +374,14 @@ async def redis(alive):
     await alive.edit("⚡")
     await asyncio.sleep(3)
     output = (
-        f"★ [King-Userbot](https://github.com/apisuserbot/King-Userbot) **Running Userbot Active!** ★\n\n"
-        f"__**{KING_TEKS_KUSTOM}**__\n\n"
-        f"{ALIVE_EMOJI} **King :** `{DEFAULTUSER}` \n"
+        f"★ [Eagle-Userbot](https://github.com/eagleprojects/eagle) **Running Userbot Active!** ★\n\n"
+        f"__**{EAGLE_TEKS_KUSTOM}**__\n\n"
+        f"{ALIVE_EMOJI} **Eagle :** `{DEFAULTUSER}` \n"
         f"{ALIVE_EMOJI} **Plugins :** `{len(plugins)} Plugin` \n"
         f"{ALIVE_EMOJI} **Userbot Version :** `v{BOT_VER}` \n"
         f"{ALIVE_EMOJI} **Python Version :** `v{python_version()}` \n"
         f"{ALIVE_EMOJI} **Telethon Version :** `v{version.__version__}` \n\n"
-        f"[Support Chat](https://t.me/KingUserbotSupport) | [Support Channel](https://t.me/TeamKingUserbot) | [License](https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/LICENSE)")
+        f"[Support Chat](https://t.me/EagleSupport) | [Support Channel](https://t.me/infobotrelax) | [License](https://github.com/eagleprojects/eagle/blob/eagle/LICENSE)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -409,8 +409,8 @@ async def alive(event):  # created by Apis
     await event.edit("__Userbot Aktif...__")
     await asyncio.sleep(3)
     text = (
-        f" **King-Userbot | Telethon** \n\n"
-        f"{ALIVE_EMOJI} **King :** __{DEFAULTUSER}__ \n"
+        f" **Eagle-Userbot | Telethon** \n\n"
+        f"{ALIVE_EMOJI} **Eagle :** __{DEFAULTUSER}__ \n"
         f"{ALIVE_EMOJI} **Plugins :** __{len(plugins)} Plugin__ \n"
         f"{ALIVE_EMOJI} **Versi Userbot :** __v{BOT_VER}__ \n"
         f"{ALIVE_EMOJI} **Versi Python :** __v{python_version()}__ \n"
