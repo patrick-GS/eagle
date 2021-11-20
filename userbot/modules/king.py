@@ -55,7 +55,7 @@ async def _(event):
         f"`Agar Terhindar Dari Orang Orang Jahat Di Telegram`"
         f"\n---------------------------------------------------"
         f"\n__**(C) copyright 2021 King-Userbot USERBOT TELEGRAM**__"
-        f"\n\n**My King :** `{ALIVE_NAME}`")
+        f"\n\n**My Name :** `{ALIVE_NAME}`")
 
 CMD_HELP.update(
     {
@@ -67,9 +67,9 @@ CMD_HELP.update(
         \n\n  •  **Perintah :** `.punten` | `.pantau`\
         \n  •  **Function : **Untuk punten dan pantau\
         \n\n  ** Perintah kosong **\
-        \n  ** Harap chat developer king @PacarFerdilla Jika ingin mengidekan sesuatu yang menarik **\
+        \n  ** Harap chat developer king @Manusiabajingann Jika ingin mengidekan sesuatu yang menarik **\
         \n\n  ** Perintah kosong **\
-        \n  ** Harap chat developer king @PacarFerdilla Jika ingin mengidekan sesuatu yang menarik **\
+        \n  ** Harap chat developer king @Manusiabajingann Jika ingin mengidekan sesuatu yang menarik **\
     "
     }
 )
