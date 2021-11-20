@@ -63,7 +63,7 @@ async def pingme(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(f"〠 __Test__ **PING** __|━|⎆__ ヅ "
                     f"\n  ☞ `%sms` \n"
-                    f"〠 __My__ **KING** __|━|⎆__ ヅ "
+                    f"〠 __My__ **MASTER** __|━|⎆__ ヅ "
                     f"\n  ☞ `{ALIVE_NAME}` \n" % (duration))
 
 
@@ -73,7 +73,7 @@ async def pingme(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("⚡")
-    await pong.edit("__**...💠KING💠...**__")
+    await pong.edit("__**...💠EAGLE💠...**__")
     await pong.edit("__**.....USERBOT.....**__")
     await pong.edit("__**......MOHON MENUNGGU......**__")
     await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
@@ -84,7 +84,7 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**╰━❖  king ping ❖━╯**\n"
+    await pong.edit(f"**╰━❖  master ping ❖━╯**\n"
                     f"☞ __ping :__ "
                     f"`%sms` \n"
                     f"☞ __i'm online :__ "
@@ -100,7 +100,7 @@ async def pingme(pong):
     await pong.edit("`⚡️`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"•⎚• ⎆ __King__ **Pong!**\n"
+    await pong.edit(f"•⎚• ⎆ __eagle__ **Pong!**\n"
                     f"☞  __Ping :__ "
                     f"`%sms` \n"
                     f"☞  __Sisa Waktu :__ "
@@ -125,7 +125,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"═⎆ **Sisa Waktu :** "
                     f"`{uptime}` \n"
-                    f"**✠➲ King :** `{ALIVE_NAME}`" % (duration))
+                    f"**✠➲ Master :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
@@ -142,12 +142,12 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"- K I N G -\n"
+    await pong.edit(f"- E A G L E -\n"
                     f"**☞ sinyal  :** "
                     f"`%sms` \n"
                     f"**☞ i'm online  :** "
                     f"`{uptime}` \n"
-                    f"__|━|⎆__ **My king  :** `{ALIVE_NAME}`" % (duration))
+                    f"__|━|⎆__ **My Master  :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.uping$")
@@ -155,11 +155,11 @@ async def pingme(pong):
     """ For .uping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("__KING__")
+    await pong.edit("__EAGLE__")
     await pong.edit("__PONG__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"┏━━| **KING PONG** |━━卍\n"
+    await pong.edit(f"┏━━| **EAGLE PONG** |━━卍\n"
                     f"┣|•  __Ping :__ "
                     f"`%sms` \n"
                     f"┗|• __Uptime :__ "
@@ -174,7 +174,7 @@ async def pingme(pong):
     await pong.edit("`Pinging...`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**King** - {ALIVE_NAME}\n\n"
+    await pong.edit(f"**eagle** - {ALIVE_NAME}\n\n"
                     f"**Pong !!** "
                     f"`%sms` \n"
                     f"**Uptime** - "
@@ -287,7 +287,7 @@ async def pingme(pong):
     await pong.edit("`Pong🏎...........`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit("⎚⎆ __King__ **Test Ping!**\n`%sms`" % (duration))
+    await pong.edit("⎚⎆ __Eagle__ **Test Ping!**\n`%sms`" % (duration))
 
 CMD_HELP.update(
     {
@@ -301,7 +301,7 @@ CMD_HELP.update(
         \n\n  •  **Perintah :** `.speedtest` | `.dc`\
         \n  •  **Function :** Untuk Mengetes Server Userbot\
         \n\n  •  **Perintah :** `!ping`\
-        \n  •  **Function : **Pingnya hampir sama dengan ultroid namun ini versi king!\
+        \n  •  **Function : **Pingnya hampir sama dengan ultroid namun ini versi eagle!\
     "
     }
 )
