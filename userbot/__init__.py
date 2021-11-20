@@ -709,7 +709,7 @@ with king:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 text = (
-                    f"__**{GANESHA_TEKS_KUSTOM}**__ \n\n"
+                    f"__**{EAGLE_TEKS_KUSTOM}**__ \n\n"
                     "============================\n"
                     f"      **Alive Inline** \n"
                     "============================\n"
