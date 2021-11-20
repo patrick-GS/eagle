@@ -40,11 +40,6 @@
       "value": "Isi id grup mu",
       "required": true
     },
-    "PM_AUTO_BAN": {
-      "description": "Fitur Block Otomatis PM, Pilih True Jika Ingin Mengaktifkan, Pilih False Jika Ingin Nonaktifkan",
-      "value": "False",
-      "required": true
-    },
     "TMP_DOWNLOAD_DIRECTORY": {
       "description": "Download directory untuk banyak plugin (GDrive, download etc)",
       "value": "./downloads/"
