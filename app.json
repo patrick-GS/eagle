@@ -1,15 +1,15 @@
 {
-  "name": "Ganesha",
-  "description": "[Ganesha] USERBOT TELEGRAM.",
+  "name": "Eagle",
+  "description": "[Eagle] USERBOT TELEGRAM.",
   "logo": "https://telegra.ph/file/5dd3d6d64ccd785ae5af2.jpg",
   "keywords": [
     "telegram",
     "userbot",
-    "ganesha",
+    "eagle",
     "modular",
     "python"
   ],
-  "repository": "https://github.com/eagleprojects/Ganesha",
+  "repository": "https://github.com/eagleprojects/eagle",
   "telegram": "https://t.me/Manusiabajingann",
   "success_url": "https://t.me/EagleSupport",
   "stack": "container",
@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di repl caranya ada di repo, jika tidak tau bisa ke @KingUserbotSupport lalu ketik #string",
+      "description": "Dapatkan String Session di repl caranya ada di repo, jika tidak tau bisa ke @EagleSupport lalu ketik #string",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -38,15 +38,6 @@
     "BOTLOG_CHATID": {
       "description": "Buatlah sebuah grup private/public masukan bot rose lalu ketik /id",
       "value": "Isi id grup mu",
-      "required": true
-    },
-    "GIT_REPO_NAME": {
-      "description": "Tambahkan GIT_REPO_NAME di sini, Ini membantu dengan commit di GitHub",
-      "required": false
-    },
-    "COUNTRY": {
-      "description": "Atur Negara Anda untuk digunakan di perintah waktu dan tanggal",
-      "value": "ID",
       "required": true
     },
     "PM_AUTO_BAN": {
@@ -67,22 +58,12 @@
       "value": "True",
       "required": true
     },
-    "DEFAULT_BIO": {
-      "description": "Default Bio Mu.",
-      "value": "Racun Dunia",
-      "required": false
-    },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "UMUR": {
-      "description": "Isi Umur Anda Sekarang (15 Tahun Adalah Umur Developer King Saat Ini)",
-      "value": "15 Tahun",
-      "required": false
-    },
-    "GAN_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .ganalive atau .ganon (Isi Terserah)",
+    "EAGLE_TEKS_KUSTOM": {
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .ealive atau .eagleon (Isi Terserah)",
       "required": false
     },
     "S_PACK_NAME": {
@@ -103,10 +84,6 @@
       "description": "Setel ini ke True jika Anda mau log kesalahan yang akan disimpan di dalam log grup, untuk mengeluarkan kesalahan file saat ini chat, required harus valid BOTLOG_CHATID untuk diatur",
       "value": "False",
       "required": true
-    },
-    "UPSTREAM_REPO_URL": {
-      "description": "Untuk repo fork mu, Tambahkan repo url fork mu.",
-      "required": false
     },
     "BOT_TOKEN": {
       "description": "Setel ini untuk mengaktifkan pembantu bot inline sebaris, Token dari @BotFather",
