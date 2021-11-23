@@ -7,10 +7,6 @@ from userbot import ALIVE_NAME, BOT_VER, CMD_HELP
 from userbot.events import register
 from platform import uname
 
-# ================= CONSTANT =================
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-# ============================================
-
 
 @register(outgoing=True, pattern="^.deploy ?(.*)")
 async def _(event):
