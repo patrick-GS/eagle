@@ -1,11 +1,6 @@
 """ Userbot module for other small commands. """
-from userbot import CMD_HELP, ALIVE_NAME
+from userbot import CMD_HELP
 from userbot.events import register
-
-
-# ================= CONSTANT =================
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-# ============================================
 
 
 @register(outgoing=True, pattern="^.ehelp$")
