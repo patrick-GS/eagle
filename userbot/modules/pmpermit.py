@@ -37,13 +37,13 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 CUSTOM_TEXT = str(
     PMPERMIT_TEXT) if PMPERMIT_TEXT else f"__Halo kawan, saya bot yang menjaga room chat king {DEFAULTUSER} di mohon jangan melakukan spam , kalau anda melakukan itu OTOMATIS saya akan memblockir anda!__ \n"
 DEF_UNAPPROVED_MSG = (
-    f"╔══════ 👑 ══════╗\n      **ROOM CHAT KING**     \n╚══════ 〠 ══════╝  \n"
+    f"╔══════ 👑 ══════╗\n      **ROOM CHAT EAGLE**     \n╚══════ 〠 ══════╝  \n"
     f"⎆ __{CUSTOM_TEXT}__ \n"
     "⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊\n"
     f"⎆ **Dilarang Spam** \n"
     "⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊\n"
     f"◈ **KING** : {DEFAULTUSER}\n"
-    f"◈ **SUPPORT** ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️\n")
+    f"◈ **SUPPORT** ⚡️ Eagle-UserBot⚡️\n")
 # =================================================================
 
 
