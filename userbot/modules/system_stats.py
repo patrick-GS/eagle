@@ -25,11 +25,6 @@ from userbot import ALIVE_EMOJI, ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, EAGL
 from userbot.events import register
 
 
-# ================= CONSTANT =================
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-# ============================================
-
-
 plugins = CMD_HELP
 
 
