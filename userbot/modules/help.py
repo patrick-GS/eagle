@@ -6,7 +6,7 @@
 """ Userbot help command """
 
 import asyncio
-from userbot import ALIVE_NAME, EMOJI_HELP, UPSTREAM_REPO_BRANCH, BOT_VER, CMD_HELP
+from userbot import ALIVE_NAME, EMOJI_HELP, UPSTREAM_REPO_BRANCH, BOT_VER, CMD_HELP, DEFAULTUSER
 from userbot.events import register
 from platform import uname
 
