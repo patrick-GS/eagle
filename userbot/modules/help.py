@@ -12,11 +12,6 @@ from platform import uname
 
 plugins = CMD_HELP
 
-# Ported by apisuserbot (King-Userbot)
-# ================= CONSTANT =================
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-# ============================================
-
 
 @register(outgoing=True, pattern="^.help(?: |$)(.*)")
 async def help(event):
