@@ -67,9 +67,9 @@ CMD_HELP.update(
         \n\n  •  **Perintah :** `.punten` | `.pantau`\
         \n  •  **Function : **Untuk punten dan pantau\
         \n\n  ** Perintah kosong **\
-        \n  ** Harap chat developer king @Manusiabajingann Jika ingin mengidekan sesuatu yang menarik **\
+        \n  ** Harap chat developer @Manusiabajingann Jika ingin mengidekan sesuatu yang menarik **\
         \n\n  ** Perintah kosong **\
-        \n  ** Harap chat developer king @Manusiabajingann Jika ingin mengidekan sesuatu yang menarik **\
+        \n  ** Harap chat developer @Manusiabajingann Jika ingin mengidekan sesuatu yang menarik **\
     "
     }
 )
